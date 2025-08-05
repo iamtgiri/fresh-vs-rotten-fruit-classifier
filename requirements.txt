@@ -1,0 +1,8 @@
+tensorflow>=2.12
+scikit-learn
+numpy
+matplotlib
+seaborn
+tqdm
+pandas
+tf2onnx

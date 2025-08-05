@@ -1,0 +1,28 @@
+INSTRUCTIONS: Dataset Preparation
+
+1. Visit the Kaggle dataset page:
+   https://www.kaggle.com/datasets/swoyam2609/fresh-and-stale-classification/data
+
+2. Download the dataset manually. You may need to log in and accept the terms if prompted.
+
+3. Extract the contents into the following folder relative to this project directory:
+   fresh-vs-rotten-fruit-classifier/data/dataset/
+
+   Your directory structure should look like this after extraction:
+
+   data/
+   └── dataset/
+       └── Train/
+           ├── freshapples/
+           ├── rottenapples/
+           ├── ...
+       └── Test/
+           ├── freshapples/
+           ├── rottenapples/
+           ├── ...
+
+4. Once extracted, run the data splitting script:
+   `python scripts/split_data.py`
+
+This will create the split dataset in:
+   `data/split_dataset/`
