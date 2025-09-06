@@ -1,0 +1,2 @@
+# Treat all notebooks as vendored (excluded from language stats)
+notebooks/*.ipynb linguist-vendored
